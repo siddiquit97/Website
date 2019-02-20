@@ -1,0 +1,98 @@
+body, html {
+	  height: 100%;
+	  margin: 0;
+	  font: 400 15px/1.8 "Lato", sans-serif;
+	  color: #777;
+	}
+
+	.parallax {
+	  //position: relative;
+	  background-image: url("background.jpg");
+	  background-attachment: fixed;
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  height: 100%;
+	  border-bottom: 25px;
+	}
+
+	.mainBox {
+	color: white;
+	text-align: center;
+	width: 350px;
+	height: 400px;
+	padding: 30px;
+	margin: 0 auto;
+	background: rgba(0,0,0,0.4);
+    }
+
+    h1 {
+	font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 3.5px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: Open Sans Condensed;
+    }
+
+.profPic {
+	height: 175px;
+	border-radius: 50%;
+}
+
+h5 {
+	margin-top: 15px;
+	font-weight: 500;
+	margin-bottom: 15px;
+	font-size: 18px;
+	font-family: Montserrat;
+}
+
+.lineBreak {
+	margin: 0 auto;
+	margin-top: 5px;
+	width: 300px;
+	border-top: solid 1px white;
+}
+
+.linkButtons {
+	text-align: center;
+	margin-top: 80px;
+}
+
+#empty {
+	display: inline-block;
+	width: 99px;
+}
+
+button {
+	font-size: 24px;
+    width: 150px;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #333333;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 3px grey;
+}
+
+button:hover {background-color: grey}
+
+button:active {
+  background-color: grey;
+  transform: translateY(4px);
+}
+
+.border {
+	margin-bottom: 100px;
+}
+
+.navbar {
+	height: 55px;
+	background-color: #333333;
+}
